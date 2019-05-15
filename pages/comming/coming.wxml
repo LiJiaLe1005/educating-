@@ -1,0 +1,30 @@
+<!--pages/comming/coming.wxml-->
+<scroll-view class='movieContainer list' scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true"> 
+ <view wx:for="{{act_addList}}"> 
+  <view class='tito' style='margin-top: 90rpx;' id="{{ 'inToView'+item.id}}"><text style='background-color:#63B8FF;height:60rpx; margin-left: 20rpx;margin-top:15rpx;'></text>{{item.region}}</view> 
+  <view class="item" wx:for="{{item.city}}"> 
+   <navigator url="../video/video?title=video" hover-class="navigator-hover"><image class="poster" src="{{ item.images.medium }}"/></navigator>
+      <view  class="meta">
+        <text class="title">{{ item.title }}</text>
+        <text class="artists">类型：{{ item.genres }}</text>
+        <text class="artist">课程介绍：{{ item.word }}</text>
+        <text class="collect-count"> {{ item.collect_count }} 已报名</text>
+      </view>
+  </view> 
+ </view> 
+</scroll-view>  
+<view class="menu"> 
+ <block wx:for="{{orientationList}}" > 
+  <view  class="orientation_city" bindtap="scrollToViewFn" data-id="{{item.id}}" >{{item.region}}</view> 
+ </block> 
+</view>  
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+/* pages/authentication/authentication.wxss */
+.imgtop{
+  width: 100%;
+  height: 400rpx;
+}
+.cent{
+  width: 100%;
+  height: 400rpx;
+  /* border: 1rpx solid salmon; */
+}
+.cent image{
+display: inline-block;
+width: 20%;
+margin-right: 7%;
+margin-left: 16%;
+margin-top: 50rpx;
+/* border: 1rpx solid salmon; */
+}
+.cent text{
+width: 50%;
+display: inline-block;
+/* border: 1rpx solid salmon; */
+}

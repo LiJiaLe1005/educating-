@@ -1,0 +1,216 @@
+/* pages/comming/coming.wxss */
+
+page {
+  height: 100%;
+}
+
+.content {
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  height: 100%;
+  margin-top: 400rpx;
+}
+
+.location {
+  width: 100%;
+}
+
+.location_top {
+  height: 76rpx;
+  line-height: 76rpx;
+  background: #f4f4f4;
+  color: #606660;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+}
+
+.location_bottom {
+  height: 140rpx;
+  line-height: 140rpx;
+  color: #d91f16;
+  font-size: 28rpx;
+  border-top: 2rpx #ebebeb solid;
+  border-bottom: 2rpx #ebebeb solid;
+  padding: 0 20rpx;
+  align-items: center;
+  display: -webkit-flex;
+}
+
+.address_top {
+  height: 76rpx;
+  line-height: 76rpx;
+  background: #f4f4f4;
+  color: #999;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+}
+
+.address_bottom {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
+  color: #000;
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  border-bottom: 2rpx #ebebeb solid;
+  margin-left: 20rpx;
+  margin-right: 50rpx;
+}
+
+.location_img {
+  width: 48rpx;
+  height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 125rpx;
+}
+
+.add_city {
+  width: 228rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 2rpx solid #ebebeb;
+  color: #000;
+  margin-right: 20rpx;
+}
+
+.add_citying {
+  width: 228rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 2rpx solid #09bb07;
+  color: #09bb07;
+  margin-right: 20rpx;
+}
+
+.orientation {
+  white-space: normal;
+  display: inline-block;
+  width: 55rpx;
+  height: 58rpx;
+  color: #999;
+  text-align: center;
+}
+
+.orientation_region {
+  width: 55rpx;
+  font-size: 20rpx;
+  position: fixed;
+  top: 220rpx;
+  right: 0rpx;
+}
+
+.orientation_city {
+  display: inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 15rpx;
+  color: #000;
+  text-align: center;
+} 
+.orientation_city:hover{
+  color: #1296db;
+}
+
+
+
+/* pages/comming/coming.wxss */
+.menu{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 90rpx;
+  background: #fff;
+  border-bottom:#eee solid 1px;
+  z-index: 100000
+}
+.top-nav{
+    white-space: nowrap;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.top-btn{
+    display: inline-block;
+    padding: 22rpx;
+}
+
+.top-hoverd-btn{
+    color: #63B8FF;
+    border-bottom: #63B8FF solid 1px;
+}
+
+.tito{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: #efeff4 solid 1px;
+  border-top: 10rpx solid #efeff4;
+}
+.tito text{
+  line-height: 80rpx;
+  font-size: 45rpx;
+  padding-left: 20rpx;
+}
+.swiper swiper-item image{
+  width: 100%;
+}
+.list {
+  height: 100%;
+  padding-top: 90rpx;
+}
+.list .item {
+  display: flex;
+  padding: 20rpx 20rpx;
+  border-bottom: 1rpx solid #eee;
+  cursor: pointer;
+}
+.list .item .poster {
+  width:200rpx;
+  height:150rpx;
+  margin-right:40rpx;
+}
+.list .item .meta {
+  flex: 1;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.list .item .meta .title,
+.list .item .meta .sub-title {
+  display: block;
+  margin-bottom: 15rpx;
+}
+.list .item .meta .title {
+  font-size: 32rpx;
+}
+.list .item .meta .sub-title {
+  font-size: 22rpx;
+  color: #c0c0c0;
+}
+.list .item .meta .artists {
+  font-size: 24rpx;
+  color: #999;
+  display: block;
+  line-height: 32rpx;
+}
+.list .item .meta .artist {
+  font-size: 24rpx;
+  color: #999;
+  height: 50rpx;
+  display: block;
+  /* line-height: 32rpx; */
+}
+.list .item .meta .collect-count {
+  color: #bce6f9;
+  font-size: 24rpx;
+}
+.tooltip{
+  width: 100%;
+  height: 130rpx;
+}
+.tooltip text{
+  font-size: 47rpx;
+  text-align: center;
+}

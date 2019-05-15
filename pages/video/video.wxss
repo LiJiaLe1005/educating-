@@ -1,0 +1,146 @@
+/* pages/video/video.wxss */
+
+.swiper-tab {
+  margin: 20rpx 0rpx 0rpx 0rpx;
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 50%;
+  color: #777;
+}
+
+.on {
+  color: #298DE5;
+  /* border-bottom: 5rpx solid #da7c0c; */
+}
+
+.swiper-box {
+  display: block;
+  /* height: 100%; */
+  width: 100%;
+  overflow: hidden;
+}
+
+.answerer {
+    position: relative;
+    margin: 0 auto;
+    width: 630rpx;
+    height: 50rpx;
+    padding: 30rpx;
+    background: #fff;
+    /* border: solid 1px #ebebeb; */
+    border-radius: 3px;
+}
+.answerer .avatar {
+    flex: 1;
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.answerer .avatar image {
+    display: inline-block;
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50rpx;
+}
+.answerer .answerer-info{
+    flex: 5;
+    text-align: left;
+    padding: 5rpx 15rpx;
+    line-height: 20rpx;
+}
+.answerer .answerer-info text{
+    display: block;
+}
+.answerer .answerer-info .answerer-name{
+    font-size: 25rpx;
+}
+.answerer .answerer-info .answerer-des{
+    font-size: 20rpx;
+    color: #a3a0a0;
+    line-height: 28rpx;
+}
+.answerer .follow{
+    flex: 2;
+    padding: 5rpx 0;
+    font-size: 20rpx;
+}
+.answerer .follow text{
+    display: inline-block;
+    padding: 10rpx 15rpx;
+    color: #40bcd0;
+    border: solid 2px #40bcd0;
+    border-radius: 6rpx;
+}
+.cont text{
+  padding: 0 60rpx;
+  display: block;
+}
+.cont .cont-name{
+  font-size: 35rpx;
+  padding-bottom: 10rpx;
+}
+.cont .cont-words{
+ font-size: 25rpx;
+ color: #a3a0a0;
+}
+.container {
+  background: #fff;
+  width: 70rpx;
+  height: 70rpx;
+  float: right;
+  margin:20rpx  100rpx 0 0;
+}
+ 
+
+.praise {
+  width: 70rpx;
+  height: 70rpx;
+  background: #999;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #fff;
+   font-size: 25rpx;
+}
+ 
+.hover_praise, .changed {
+  transition: 0.5s;
+  background: #f00;
+}
+.ansfoot{
+position: fixed;
+height: 100rpx;
+width: 100%;
+bottom: 0;
+border-top: 1px solid #ddd;
+/* display: inline-block; */
+}
+.ansfoot input{
+  width: 60%;
+  display:inline-block;
+  border-bottom: 1px solid #ddd;
+  /* margin-left:50rpx; */
+  border-radius: 20rpx;
+}
+.ansfoot image{
+  display:inline-block;
+  
+}
+.ansfoot .bq{
+  padding: 20rpx 0 0 50rpx;
+width: 70rpx;
+  height: 70rpx;
+}
+.ansfoot .send{
+  padding: 20rpx 0 0 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+}

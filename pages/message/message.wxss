@@ -1,0 +1,40 @@
+/* pages/message/message.wxss */
+ 
+.tooltip {
+  width: 100%;
+  height: 80rpx;
+  background-color: rgba(80, 183, 250, 0.5);
+}
+
+.imgto {
+  width: 100%;
+  height: 400rpx;
+}
+
+.words {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #efeff4;
+}
+
+.words .left {
+  margin: 3%;
+  width: 35%;
+  height: 200rpx;
+}
+
+.words .right {
+  padding: 30rpx 10rpx;
+  width: 60%;
+}
+
+
+
+
+
+
+
+

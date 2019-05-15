@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comming/coming",
+    "pages/more/more",
+    "pages/video/video",
+    "pages/message/message",
+    "pages/messtext/messtext",
+    "pages/chat/chat",
+    "pages/chats/chats",
+    "pages/authentication/authentication"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA500",
+    "navigationBarTitleText": "越土文化",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/popular_icon.png",
+        "selectedIconPath": "icon/popular_active_icon.png"
+      },
+      {
+        "pagePath": "pages/comming/coming",
+        "text": "发现",
+        "iconPath": "icon/coming_icon.png",
+        "selectedIconPath": "icon/coming_active_icon.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "测试",
+        "iconPath": "icon/top_icon.png",
+        "selectedIconPath": "icon/top_active_icon.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "我的",
+        "iconPath": "icon/my_icon.png",
+        "selectedIconPath": "icon/my_active_icon.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

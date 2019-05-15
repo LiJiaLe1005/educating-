@@ -1,0 +1,46 @@
+<!--pages/message/message.wxml-->
+ 
+ <image class='imgto' src="../../icon/016.jpg"/>
+<view class='message'>
+    <navigator url="../messtext/messtext?title=messtext" hover-class="navigator-hover">
+    <view class='words'>
+        <image class='left' src="../../icon/015.jpg"/>
+        <view class='right' style='margin-left:20rpx；margin-top:20rpx;' >
+        <text style='font-size: 35rpx;'>Flash广告遭Google正式摒弃\n</text>
+        <text  style='font-size: 30rpx;color:#9C9C9C;'decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;谷歌最新宣布，“谷歌显示网络”及数字营销服务将在明年彻底放弃Flash。</text>
+        </view>        
+    </view>
+    </navigator>
+
+    <view class='words'>
+        <image class='left' src="../../icon/017.jpg"/>
+        <view class='right' style='margin-left:20rpx；margin-top:20rpx;' >
+        <text style='font-size: 35rpx;'>甲骨文称 Java 序列化的存在是个错误\n</text>
+        <text  style='font-size: 30rpx;color:#9C9C9C;'decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;甲骨文计划从 Java 中去除序列化功能，因其在安全方面一直是一个棘手的问题。</text>
+        </view>        
+    </view>
+
+    <view class='words'>
+        <image class='left' src="../../icon/018.jpg"/>
+        <view class='right' style='margin-left:20rpx；margin-top:20rpx;' >
+        <text style='font-size: 35rpx;'>原生安卓加持！小米A1获得最棒中端手机称号\n</text>
+        <text  style='font-size: 30rpx;color:#9C9C9C;'decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;首款参与进化版Android One项目的智能手机最大的不同点是搭载的是原生安卓系统。</text>
+        </view>        
+    </view>
+
+<view class='words'>
+        <image class='left' src="../../icon/011.jpg"/>
+        <view class='right' style='margin-left:20rpx；margin-top:20rpx;' >
+        <text style='font-size: 35rpx;'>JavaScript框架的残酷生命周期\n</text>
+        <text  style='font-size: 30rpx;color:#9C9C9C;'decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;通过 Stack Overflow分析了主流的 JavaScript 框架有着怎样的兴盛起衰。</text>
+        </view>        
+    </view>
+
+    <view class='words'>
+        <image class='left' src="../../icon/020.jpg"/>
+        <view class='right' style='margin-left:20rpx；margin-top:20rpx;' >
+        <text style='font-size: 35rpx;'>PHP代码优化技巧总结\n</text>
+        <text  style='font-size: 30rpx;color:#9C9C9C;'decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;PHP 独特的语法混合了 C、Java、Perl 以及 PHP 自创新的语法，它可以比 CGI或者Perl更快速的执行动态网页。</text>
+        </view>        
+    </view>
+</view> 

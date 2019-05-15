@@ -1,0 +1,17 @@
+<!--pages/authentication/authentication.wxml-->
+<image class='imgtop' src="../../icon/021.jpg"></image>
+<view class='cent'>
+<view >
+<image src="../../images/suishi.png" style='width: 64rpx;height: 64rpx;'></image>
+<text>随时随地 在线认证</text>
+</view>
+<view>
+<image src="../../images/quanwei.png" style='width: 64rpx;height: 64rpx;'></image>
+<text>知名专家 权威认证</text>
+</view>
+<view>
+<image src="../../images/service.png" style='width: 64rpx;height: 64rpx;'></image>
+<text>资料全面 保障认证</text>
+</view>
+</view>
+<view style='width: 80%;height: 70rpx;margin-left: 10%;background-color: orange;margin-top:30rpx;'><text style='color: #fff; display: flex;  justify-content: center;line-height: 70rpx;'>开始认证</text></view>

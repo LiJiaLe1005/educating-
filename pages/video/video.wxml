@@ -1,0 +1,54 @@
+<!--pages/video/video.wxml-->
+<!-- 视频 -->
+<view class="section tc">
+  <video id="myVideo" src="{{url}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls style="width: 100%;"></video>
+  <view class="btn-area">
+    <input bindblur="bindInputBlur" style='width: 60%;display:inline-block; border: 1px solid #ddd;margin-left:50rpx;border-radius: 20rpx;'/>
+    <button bindtap="bindSendDanmu" class='btn' style="width: 25%;margin-left:20rpx;font-size:25rpx ;display:inline-block;">发送弹幕</button>
+  </view>
+</view>
+ <!-- 课程简介 课程评价-->
+<view>
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">课程简介</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">课程评价</view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 310}}px" bindchange="bindChange">
+  <!-- 课程简介 -->
+  <swiper-item>
+    <view>
+      <view class="answerer flex-wrp">
+        <view class="avatar flex-item">
+          <image src="../../images/icon1.jpg"></image>
+        </view>
+        <view class="answerer-info flex-item">
+          <text class="answerer-name">Rebecca</text>
+          <text class="answerer-des">1.5万粉丝</text>
+        </view>
+        <view class="follow flex-item">
+          <text>十 关注</text>
+        </view>
+      </view>
+      <view class='cont'>
+        <text class='cont-name'>PHP基础教学</text>
+        <text class='cont-words'>PHP是一种通用开源脚本语言,语法吸收了C语言、Java和Perl的特点，利于学习，使用广泛，主要适用于Web开发领域。PHP 独特的语法混合了C、Java、Perl以及PHP自创的语法。它可以比CGI或者Perl更快速地执行动态网页。</text>
+      </view>
+      <view class="container">
+        <view class="list" wx:for="{{list}}" wx:key="key" wx:for-item="item" wx:for-index="index">
+          <view class="praise {{item.hasChange? 'changed': ''}}" hover-class="hover_praise" bindtap="praiseThis" data-curIndex="{{index}}">{{item.praise}}</view>
+        </view>
+
+      </view>
+    </view>
+  </swiper-item>
+  <!-- 课程评价 -->
+  <swiper-item>
+    <view class='ansfoot'>
+    <image src='../../images/biaoqing.png' class='bq'></image>
+    <input />
+    <image src='../../images/send.png' class='send'></image>
+    </view>
+  </swiper-item>
+</swiper>
+</view>

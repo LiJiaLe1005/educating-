@@ -1,0 +1,31 @@
+<!--pages/messtext/messtext.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">Flash广告遭Google正式摒弃， 明年将改用H5技术</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="../../images/icon1.jpg"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">Rebecca</text>
+                <text class="answerer-des">11-13 阅读 10305</text>
+            </view>
+            <view class="follow flex-item">
+                <text>十 关注</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;谷歌最新宣布，“谷歌显示网络”（Google Display Network）及数字营销服务将在明年彻底放弃Flash，改用H5技术。也就是意味着，今年6月30日开始，广告主将不能在谷歌AdWords广告平台和DoubleClick Digital Marketing营销平台上传flash技术的显示广告；同时从2017年1月2日开始，广告主不可在“谷歌显示网络”上或是通过DoubleClick服务投放Flash格式的显示广告。
+        </text>
+        <image src="../../icon/013.jpg"></image>
+        <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而早在去年1月份，谷歌旗下的视频服务YouTube就摒弃了Flash，改用H5作为默认视频格式；之后在2月份，YouTube开始将Flash广告自动转换为H5广告。而不久前，Facebook 也将全站视频默认切换到了 H5。不过，谷歌方面表示，Flash格式的视频广告“目前而言不会受到影响”。然而，这对Flash来说将是重重一击。
+        </text>
+        <image src="../../icon/014.jpg"></image>
+    </view>
+</view>
+
+

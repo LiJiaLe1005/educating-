@@ -1,0 +1,94 @@
+<!--index.wxml-->
+ <view class='content'>
+  <view class='swiperContainer'>
+    <swiper class='swiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="250" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  </view>  
+<view class='cotent2'>
+  <view class='quan' style='background-color: white;'>
+    <view class='quan_zi'>
+      <text class='zi'>乡</text>
+    </view>
+    <text>越地春秋</text>
+  </view>
+  <view class='quan' style='background-color: white;'>
+    <view class='quan_zi'>
+      <text class='zi'>土</text>
+    </view>
+    <text>乡贤名士</text>
+  </view>
+  <view class='quan' style='background-color: white;'>
+    <view class='quan_zi'>
+      <text class='zi'>文</text>
+    </view>
+    <text>民俗风情</text>
+  </view>
+  <view class='quan' style='background-color: white;'>
+    <view class='quan_zi'>
+      <text class='zi'>化</text>
+    </view>
+    <text>文化遗产</text>
+  </view>
+</view>
+
+<view class='recruit' style='height:100rpx; width:100%;'>
+  <text class='left'>招聘</text>
+  <swiper class='right' style='height:100rpx;width:85%;' autoplay circular duration='1000' vertical='true'>
+    <swiper-item>
+      <view>
+        <text>北京市宣武门外大街富卓大厦:中级Java开发工程师</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <text>上海迩格信息技术有限公司:前端开发工程师</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <text>杭州奇光网络科技有限公司:高级PHP开发工程师</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <text>北京红果科技有限公司:.Net开发工程师</text>
+      </view>
+    </swiper-item>
+  </swiper>
+
+
+</view>
+
+
+<view class='movieContainer list'>
+  <view class='tito'>
+    <text>为您推荐</text>
+  </view>
+   <view class="item" wx:for="{{subjects}}"> 
+  <!-- <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" class="banners" interval="{{interval}}" ration="{{duration}}">
+    <block wx:for="{{jsonText}}" wx:key='item' class="item">
+      <swiper-item> -->
+        <navigator url="../video/video?title=video" hover-class="navigator-hover">
+          <image class="poster" src="{{ item.images.medium }}" />
+        </navigator>
+        <view class="meta">
+          <text class="title">{{ item.title }}</text>
+          <text class="title">{{ item.word }}</text>
+          <text class="collect-count"> 直播中</text>
+        </view>
+      <!-- </swiper-item>
+    </block>
+  </swiper> -->
+   </view> 
+</view>
+
+<view class='foot'>
+  <text>版权归开发者所有\n</text>
+  <text>关于我们  - 联系我们 - 免责声明  - 投诉建议 </text>
+</view>
