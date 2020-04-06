@@ -1,6 +1,6 @@
 # weapp-wechat-zhihu
 
-微信中的知乎--微信小程序 demo // Zhihu in Wechat
+微信小程序--越土文化 // YueTuWenHua in Wechat
 
 ![](images/v_index.png)
 
@@ -26,9 +26,7 @@ git@github.com:RebeccaHanjw/weapp-wechat-zhihu.git
 
 ### 演示
 
-首页下拉刷新等
 
-![](images/index_scroll.gif)
 
 底部 tab 切换
 
